@@ -20,7 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     });
     btnContacto.addEventListener("click", function() {
-        agregarContenido("Contactanos!");
+        agregarContenido(
+            "¡Contáctanos para obtener más información!<br>" +
+            "Estamos aquí para responder a tus preguntas y brindarte asistencia en todo lo que necesites."
+        );
     });
     btnCarrito.addEventListener("click", function() {
         agregarContenido("Tu carrito de compras esta vacio.");
