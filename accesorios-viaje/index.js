@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const btnCarrito = document.getElementById("btnCarrito");
     
     btnInicio.addEventListener("click", function() {
-        agregarContenido("¡Bienvenido al inicio!");
+        agregarContenido(
+            "Bienvenido a la página de inicio de Aerolínea STARK.<br>" +
+            "Somos una aerolínea comprometida con la excelencia en el servicio aéreo.<br>" +
+            "Navega por nuestro sitio para descubrir emocionantes destinos, servicios premium y ofertas especiales."
+        );
     });
     btnProductos.addEventListener("click", function() {
         agregarContenido("Explora nuestros productos.");
