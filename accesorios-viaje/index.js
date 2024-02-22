@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         agregarContenido(
             "Tu carrito de compras está vacío.<br>" +
             "Explora nuestra selección de productos y agrega tus favoritos para empezar tu experiencia de compra.",
-            "" 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAZhZDAj52w2EHy7lED-SNya8wov-9p6Jgqg&usqp=CAU" 
         );
     });
     
