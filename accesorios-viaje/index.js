@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "Bienvenido a la página de inicio de Aerolínea STARK.<br>" +
             "Somos una aerolínea comprometida con la excelencia en el servicio aéreo.<br>" +
             "Navega por nuestro sitio para descubrir emocionantes destinos, servicios premium y ofertas especiales.",
-            ""
+            "https://easbcn.com/wp-content/uploads/2023/01/EAS-Gener.png"
         );
     });
     btnProductos.addEventListener("click", function() {
