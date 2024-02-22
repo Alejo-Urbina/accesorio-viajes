@@ -13,7 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     });
     btnProductos.addEventListener("click", function() {
-        agregarContenido("Explora nuestros productos.");
+        agregarContenido(
+            "Bienvenido a la sección de productos de Aerolínea STARK.<br>" +
+            "Explora nuestra amplia gama de productos para los vuelos, emocionantes destinos, " +
+            "servicios exclusivos a bordo y opciones personalizadas para hacer de tu viaje una experiencia inolvidable."
+        );
     });
     btnContacto.addEventListener("click", function() {
         agregarContenido("Contactanos!");
