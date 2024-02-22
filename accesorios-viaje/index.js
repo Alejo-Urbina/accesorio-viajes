@@ -44,6 +44,9 @@ document.addEventListener("DOMContentLoaded", function() {
             const imagen = document.createElement("img");
             imagen.src = urlImagen;
             imagen.alt = "Imagen relacionada";
+            imagen.style.margin = "10px"; 
+            imagen.style.width = "500px";
+            imagen.style.height = "auto";
             main.appendChild(imagen);
         }
     }
