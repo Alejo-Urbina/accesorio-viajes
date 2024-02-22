@@ -9,31 +9,42 @@ document.addEventListener("DOMContentLoaded", function() {
         agregarContenido(
             "Bienvenido a la página de inicio de Aerolínea STARK.<br>" +
             "Somos una aerolínea comprometida con la excelencia en el servicio aéreo.<br>" +
-            "Navega por nuestro sitio para descubrir emocionantes destinos, servicios premium y ofertas especiales."
+            "Navega por nuestro sitio para descubrir emocionantes destinos, servicios premium y ofertas especiales.",
+            ""
         );
     });
     btnProductos.addEventListener("click", function() {
         agregarContenido(
             "Bienvenido a la sección de productos de Aerolínea STARK.<br>" +
             "Explora nuestra amplia gama de productos para los vuelos, emocionantes destinos, " +
-            "servicios exclusivos a bordo y opciones personalizadas para hacer de tu viaje una experiencia inolvidable."
+            "servicios exclusivos a bordo y opciones personalizadas para hacer de tu viaje una experiencia inolvidable.",
+            "" 
         );
     });
     btnContacto.addEventListener("click", function() {
         agregarContenido(
             "¡Contáctanos para obtener más información!<br>" +
-            "Estamos aquí para responder a tus preguntas y brindarte asistencia en todo lo que necesites."
+            "Estamos aquí para responder a tus preguntas y brindarte asistencia en todo lo que necesites.",
+            "" 
         );
     });
     btnCarrito.addEventListener("click", function() {
         agregarContenido(
             "Tu carrito de compras está vacío.<br>" +
-            "Explora nuestra selección de productos y agrega tus favoritos para empezar tu experiencia de compra."
+            "Explora nuestra selección de productos y agrega tus favoritos para empezar tu experiencia de compra.",
+            "" 
         );
     });
     
-    function agregarContenido(texto) {
+    function agregarContenido(texto, urlImagen) {
         const main = document.querySelector("main");
-        main.innerHTML = `<p>${texto}</p>`;
+        main.innerHTML = `<p>${texto}</p>`;        
+        
+        if (urlImagen) {
+            const imagen = document.createElement("img");
+            imagen.src = urlImagen;
+            imagen.alt = "Imagen relacionada";
+            main.appendChild(imagen);
+        }
     }
 });
