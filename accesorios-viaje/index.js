@@ -26,7 +26,10 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     });
     btnCarrito.addEventListener("click", function() {
-        agregarContenido("Tu carrito de compras esta vacio.");
+        agregarContenido(
+            "Tu carrito de compras está vacío.<br>" +
+            "Explora nuestra selección de productos y agrega tus favoritos para empezar tu experiencia de compra."
+        );
     });
     
     function agregarContenido(texto) {
