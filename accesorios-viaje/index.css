@@ -18,3 +18,9 @@ nav {
     padding: 10px;
     text-align: center;
 }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
